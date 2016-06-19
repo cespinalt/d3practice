@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+body {
+  font: bold 14px 'Press Start 2P', cursive, monospace;
+  /*background: blue;*/
+}
+.centerContent {
+  margin: 0 auto;
+  width: 860px;
+  padding-top: 60px;
+}
+.scoreboard {
+  text-align: center;
+}
+.highscore, .current, .collisions {
+  margin: 0  50px 20px 0;
+  color: #fff001;
+  text-align: center;
+  display: inline-block;
+}
+.current {
+  margin-left: 35px;
+}
+.collisions {
+  margin: 0;
+}
+#board {
+  width: 860px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: #3a3636;
+  display: block;
+  border-radius: 8px
+}
+.asteroid {
+  width: 50px;
+  height: 50px;
+  position: absolute
+    z-index: 1
+}
+#player {
+}
